@@ -1,0 +1,63 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+/* =========Colors=========== */
+$very-dark-blue: #070439; /* hsl(243, 87%, 12%) */
+$desaturated-blue: #585989; /* hsl(238, 22%, 44%) */
+$bright-blue: #3065f8; /* hsl(224, 93%, 58%) */
+$moderate-cyan: #3c9f8f; /* hsl(170, 45%, 43%) */
+$light-grayish-blue: #f6f6fe; /* hsl(240, 75%, 98%) */
+$light-gray: #bfbfbf; /* hsl(0, 0%, 75%) */
+
+/* =========Fonts=========== */
+$font-family-raleway: "Raleway", sans-serif;
+$font-family-open: "Open Sans", sans-serif;
+
+/* =========Custom Bootstrap=========== */
+$navbar-brand-font-size: 19px;
+// $spacer: 25rem;
+
+// $thumbnail-padding: 90rem;
+// $h2-font-size: 5rem;
+
+
+h2{
+    font-family: $font-family-raleway;
+    color: $very-dark-blue;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.navbar{
+    font-family: $font-family-raleway;
+    font-size: $navbar-brand-font-size;   
+}
+.body-img {
+    // width: $thumbnail-padding;
+    width: 60rem;
+}
+p{
+    font-family: $font-family-raleway;
+    font-size: 2rem;
+}
+.form-control {
+    font-family: $font-family-raleway;
+    font-size: 1.4rem;
+    border-color: $very-dark-blue;
+}
+.btn {
+    background-color: $bright-blue;
+    font-family: $font-family-raleway;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: $light-grayish-blue;
+    margin-right: 4rem;
+    width: 36rem;
+    padding: 1rem;
+}
+
+.hero1{
+    padding-top: 8rem;
+}
+
+.hero2 {
+    padding-top: 25rem;
+}

@@ -1,0 +1,43 @@
+:root {
+    --very-dark-blue: #17171A; /* hsl(243, 87%, 12%) */
+    --desaturated-blue: #708FAE; /* hsl(238, 22%, 44%) */
+    
+    /* Accent Colors */
+    --bright-blue: #4993B3; /* hsl(224, 93%, 58%) */
+    --moderate-cyan: #73B2AE; /* hsl(170, 45%, 43%) */
+    
+    /* Neutral Colors */
+    --light-grayish-blue: #F6F8FC; /* hsl(240, 75%, 98%) */
+    --light-gray: #C2C2C2; /* hsl(0, 0%, 75%) */
+
+
+    --font-family-raleway: "Raleway", sans-serif;
+    --font-family-open: "Open Sans", sans-serif;
+}
+  
+
+
+
+html {
+    box-sizing: border-box; /*Border box es para mantener el tamanio por defecto de los elementos sin afectar padding o contenido. Inherit hereda a su elemento padre el border box*/
+    font-size: 62.5%; /* 1 rem = 10px */
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.5rem;
+}
+/* Utility */
+
+/* Utility classes are set to avoid code duplication when expanding the website */
+.no-margin {
+    margin: 0;
+}
+.no-padding {
+    padding: 0;
+}
+.center-content {
+    text-align: center;
+}
