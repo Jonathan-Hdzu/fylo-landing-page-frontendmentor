@@ -9803,7 +9803,7 @@ h2, .h2 {
 }
 
 .body-img {
-  width: 50rem;
+  width: 45rem;
 }
 
 p {
@@ -9829,9 +9829,24 @@ p {
 }
 
 .hero1 {
+  display: grid;
   padding-top: 8rem;
+  grid-template-rows: repeat(2, 1fr); /* Define dos filas */
 }
 
+@media (max-width: 768px) {
+  .hero-text {
+    order: 2;
+  }
+  .hero-img {
+    order: 1;
+  }
+}
+@media (min-width: 768px) {
+  .hero1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 .hero2 {
   padding-top: 25rem;
 }
@@ -9863,7 +9878,10 @@ p {
 }
 
 .quote {
-  padding-top: 10rem;
+  padding-top: 4rem;
+  padding-left: 4rem;
+  float: left;
+  width: 41rem;
 }
 
 .card__quote {
