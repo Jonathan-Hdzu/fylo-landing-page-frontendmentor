@@ -9803,7 +9803,7 @@ h2, .h2 {
 }
 
 .body-img {
-  width: 60rem;
+  width: 50rem;
 }
 
 p {
@@ -9834,4 +9834,71 @@ p {
 
 .hero2 {
   padding-top: 25rem;
+}
+
+.body-img {
+  padding-top: 5rem;
+}
+
+.see-works {
+  color: #3c9f8f;
+  padding-top: 0.7rem;
+  height: 3rem;
+}
+
+.info {
+  display: flex;
+}
+
+.img__info {
+  width: 2rem;
+  height: auto;
+}
+
+.underline {
+  width: 21rem;
+  border-color: #3c9f8f;
+  border-bottom: #3c9f8f;
+  border-top-width: 2px;
+}
+
+.quote {
+  padding-top: 10rem;
+}
+
+.card__quote {
+  display: flex;
+  width: 30rem;
+}
+
+.founder__img {
+  border-radius: 15rem;
+  width: 9rem;
+}
+
+.founder__name {
+  color: #070439;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.founder__role {
+  font-size: 1.1rem;
+}
+
+.testimonial__section {
+  width: 70rem;
+  height: 2rem;
+}
+
+.texto1 {
+  font-size: 16px;
+  color: #444444;
+  margin: 1rem;
+}
+
+.texto2 {
+  font-size: 16px;
+  color: #444444;
+  margin: 1rem;
 }/*# sourceMappingURL=custom.css.map */

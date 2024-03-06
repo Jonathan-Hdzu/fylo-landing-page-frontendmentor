@@ -32,7 +32,7 @@ h2{
 }
 .body-img {
     // width: $thumbnail-padding;
-    width: 60rem;
+    width: 50rem;
 }
 p{
     font-family: $font-family-raleway;
@@ -60,4 +60,67 @@ p{
 
 .hero2 {
     padding-top: 25rem;
+}
+
+.body-img {
+    padding-top: 5rem;
+}
+.see-works {
+    color: $moderate-cyan;
+    padding-top: 0.7rem;
+    height:  3rem;
+}
+.info {
+    display: flex;
+}
+
+.img__info {
+    width: 2rem;
+    height:  auto;
+}
+.underline {
+    width: 21rem;
+    border-color: $moderate-cyan;
+    border-bottom: $moderate-cyan;
+    border-top-width: 2px;
+}
+.quote {
+    padding-top: 10rem;
+}
+
+
+
+.card__quote{
+    display: flex;
+    width: 30rem;
+}
+.founder__img{
+    border-radius: 15rem;
+    width: 9rem;
+}
+.founder__name {
+    color: $very-dark-blue;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.founder__role{
+    font-size: 1.1rem;
+}
+// .card__testimonial {
+    
+// }
+
+.testimonial__section {
+    width: 70rem;
+    height: 2rem;
+}
+.texto1 {
+    font-size: 16px;
+    color: #444444;
+    margin: 1rem;
+}
+.texto2 {
+    font-size: 16px;
+    color: #444444;
+    margin: 1rem;
 }
