@@ -9873,7 +9873,12 @@ p {
 
 .founder__img {
   border-radius: 15rem;
-  width: 9rem;
+  width: 7rem;
+}
+
+.founder__section {
+  width: 70rem;
+  height: 2rem;
 }
 
 .founder__name {
@@ -9884,11 +9889,6 @@ p {
 
 .founder__role {
   font-size: 1.1rem;
-}
-
-.testimonial__section {
-  width: 70rem;
-  height: 2rem;
 }
 
 .texto1 {
