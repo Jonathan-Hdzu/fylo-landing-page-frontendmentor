@@ -9847,10 +9847,6 @@ p {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-.hero2 {
-  padding-top: 25rem;
-}
-
 .body-img {
   padding-top: 5rem;
 }
@@ -9922,16 +9918,35 @@ p {
 }
 
 .contact {
+  margin-top: 7rem;
   width: 100%;
+  padding-top: 8vh;
   background-color: #585989;
-  height: 25rem;
+  height: 27rem;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
 }
 
+.button-2 {
+  margin-right: 4rem;
+  width: 15rem;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+  }
+  .button-2 {
+    width: 100%;
+  }
+  .contact__info {
+    text-align: center;
+  }
+}
 .contact__info {
-  width: 42rem;
+  width: 39rem;
 }
 
 .contact__info--title {
@@ -9945,4 +9960,9 @@ p {
   font-family: "Raleway", sans-serif;
   color: #f6f6fe;
   font-size: 1.3rem;
+}
+
+.input-2 {
+  height: 4rem;
+  float: left;
 }/*# sourceMappingURL=custom.css.map */

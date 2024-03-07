@@ -28,7 +28,7 @@ h2{
 }
 .navbar{
     font-family: $font-family-raleway;
-    font-size: $navbar-brand-font-size;   
+    font-size: $navbar-brand-font-size;
 }
 .body-img {
     // width: $thumbnail-padding;
@@ -59,7 +59,7 @@ p{
     padding-top: 8rem;
     grid-template-rows: repeat(2, 1fr); /* Define dos filas */
   }
-  
+
   @media (max-width: 768px) {
     .hero-text {
       order: 2;
@@ -74,7 +74,7 @@ p{
   }
 }
 .hero2 {
-    padding-top: 25rem;
+    // padding-top: 1rem;
 }
 
 .body-img {
@@ -141,20 +141,45 @@ p{
     color: #444444;
     margin: 1rem;
 }
-
-.block-info {
-    
-}
 .contact {
+    margin-top: 7rem;
     width: 100%;
+    padding-top: 8vh;
     background-color: $desaturated-blue;
-    height: 25rem;
+    height: 27rem;
     display: flex;
-  justify-content: center;
-  align-items: center;
+    // flex-direction: row;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
+.button-2 {
+    margin-right: 4rem;
+    width: 15rem;
+}
+
+@media (max-width: 768px) {
+    .contact {
+      flex-direction: column;
+    }
+    .button-2 {
+        width: 100%;
+    }
+    .contact__info {
+        text-align: center;
+    }
+  }
+
+
+// .block-info {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+
 .contact__info{
-    width: 42rem;
+    width: 39rem;
 }
 .contact__info--title {
     font-family: $font-family-raleway;
@@ -168,6 +193,12 @@ p{
     color: $light-grayish-blue;
     font-size: 1.3rem;
 }
-.contact__form2 {
+// .form-control2 {
+//     width: 15%;
 
+// }
+
+.input-2 {
+    height: 4rem;
+    float: left;
 }
