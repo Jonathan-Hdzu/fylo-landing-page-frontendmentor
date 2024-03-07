@@ -104,7 +104,6 @@ p{
     padding-top: 4rem;
     padding-left: 4rem;
     float: left;
-
     width: 41rem;
 }
 
@@ -141,4 +140,34 @@ p{
     font-size: 16px;
     color: #444444;
     margin: 1rem;
+}
+
+.block-info {
+    
+}
+.contact {
+    width: 100%;
+    background-color: $desaturated-blue;
+    height: 25rem;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact__info{
+    width: 42rem;
+}
+.contact__info--title {
+    font-family: $font-family-raleway;
+    font-weight: 700;
+    color: $light-grayish-blue;
+    font-size: 2.5rem;
+
+}
+.contact__info--description {
+    font-family: $font-family-raleway;
+    color: $light-grayish-blue;
+    font-size: 1.3rem;
+}
+.contact__form2 {
+
 }

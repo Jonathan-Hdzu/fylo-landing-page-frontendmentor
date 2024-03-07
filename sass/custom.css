@@ -9919,4 +9919,30 @@ p {
   font-size: 16px;
   color: #444444;
   margin: 1rem;
+}
+
+.contact {
+  width: 100%;
+  background-color: #585989;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__info {
+  width: 42rem;
+}
+
+.contact__info--title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #f6f6fe;
+  font-size: 2.5rem;
+}
+
+.contact__info--description {
+  font-family: "Raleway", sans-serif;
+  color: #f6f6fe;
+  font-size: 1.3rem;
 }/*# sourceMappingURL=custom.css.map */
