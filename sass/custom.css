@@ -9965,4 +9965,23 @@ p {
 .input-2 {
   height: 4rem;
   float: left;
+}
+
+.footer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: #070439;
+  color: #f6f6fe;
+  padding-top: 9rem;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    grid-template-columns: repeat(4, 15%);
+    gap: 12rem;
+  }
+}
+.footer p {
+  font-size: 15px;
 }/*# sourceMappingURL=custom.css.map */

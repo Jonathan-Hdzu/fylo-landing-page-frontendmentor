@@ -202,3 +202,22 @@ p{
     height: 4rem;
     float: left;
 }
+
+.footer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: $very-dark-blue;
+    color: $light-grayish-blue;// height: 28rem;
+    padding-top: 9rem;
+}
+@media (min-width: 768px) {
+    .footer {
+      grid-template-columns: repeat(4, 15%);
+      gap:  12rem;
+    
+  }
+}
+.footer p {
+    font-size: 15px;
+}
