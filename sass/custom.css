@@ -9920,7 +9920,7 @@ p {
 .contact {
   margin-top: 7rem;
   width: 100%;
-  padding-top: 8vh;
+  padding-top: 1vh;
   background-color: #585989;
   height: 27rem;
   display: flex;
@@ -9968,20 +9968,29 @@ p {
 }
 
 .footer {
-  display: grid;
-  justify-content: center;
-  align-items: center;
   background-color: #070439;
+}
+
+.footer2 {
   color: #f6f6fe;
-  padding-top: 9rem;
+  display: grid;
+  justify-items: center;
+  padding: 9rem;
 }
 
 @media (min-width: 768px) {
-  .footer {
-    grid-template-columns: repeat(4, 15%);
-    gap: 12rem;
+  .footer2 {
+    grid-template-columns: repeat(4, 25%);
+    gap: 2rem;
   }
 }
 .footer p {
   font-size: 15px;
+}
+
+.footer-logo {
+  margin-left: 15rem;
+  margin-bottom: -7rem;
+  padding-top: 5rem;
+  width: 14rem;
 }/*# sourceMappingURL=custom.css.map */

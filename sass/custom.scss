@@ -144,12 +144,11 @@ p{
 .contact {
     margin-top: 7rem;
     width: 100%;
-    padding-top: 8vh;
+    padding-top: 1vh;
     background-color: $desaturated-blue;
     height: 27rem;
     display: flex;
     // flex-direction: row;
-
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
@@ -202,22 +201,34 @@ p{
     height: 4rem;
     float: left;
 }
-
-.footer {
-    display: grid;
-    justify-content: center;
-    align-items: center;
+.footer{
     background-color: $very-dark-blue;
-    color: $light-grayish-blue;// height: 28rem;
-    padding-top: 9rem;
+}
+.footer2 {
+    color: $light-grayish-blue;
+    display: grid;
+    justify-items: center;
+    padding: 9rem;
+    
 }
 @media (min-width: 768px) {
-    .footer {
-      grid-template-columns: repeat(4, 15%);
-      gap:  12rem;
+    .footer2 {
+      grid-template-columns: repeat(4, 25%);
+      gap:  2rem;
     
   }
 }
 .footer p {
     font-size: 15px;
+    
+}
+.footer-logo {
+    // display: block;
+    margin-left: 15rem;
+    margin-bottom: -7rem;
+    padding-top: 5rem;
+
+    
+    // margin-right: auto;
+    width: 14rem
 }
