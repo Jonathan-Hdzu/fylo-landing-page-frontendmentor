@@ -40,10 +40,8 @@ h2{
         margin: 0 auto;
     }
 }
-
-
 .body-img {
-    // width: $thumbnail-padding;
+
     width: 45rem;
 }
 p{
@@ -70,37 +68,31 @@ p{
 }
 .hero1 {
     display: grid;
-    // padding-top: 8rem;
-    margin-top: 1rem;
-    grid-template-rows: repeat(2, 1fr); /* Define dos filas */
-  }
 
-  @media (max-width: 740px) {
-    .hero-text {
-      order: 2;
-    }
-    .hero-img {
-      order: 1;
-    }
+    margin-top: 1rem;
+    grid-template-rows: repeat(2, 1fr); 
   }
-  @media (min-width: 740px) {
-    .hero1{
-        grid-template-columns: repeat(2, 1fr);
-  }
-}
 .hero2 {
     display: grid;
     margin-top: 8rem;
-    grid-template-rows: repeat(1, 1fr); /* Define dos filas */
-    // padding-top: 1rem;
+    grid-template-rows: repeat(1, 1fr); 
 }
 @media (max-width: 740px) {
+    .hero-text {
+        order: 2;
+      }
+      .hero-img {
+        order: 1;
+      }
     .hero-text2 {
       order: 2;
     }
     .image-hero2 {
       order: 1;
     }
+    .hero1{
+        grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .body-img {
@@ -140,8 +132,6 @@ p{
 
   }
 }
-
-
 .card__quote{
     display: flex;
     width: 30rem;
@@ -182,7 +172,6 @@ p{
     background-color: $desaturated-blue;
     height: 27rem;
     display: flex;
-    // flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
@@ -204,13 +193,6 @@ p{
     }
   }
 
-
-// .block-info {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-// }
-
 .contact__info{
     width: 39rem;
 }
@@ -226,11 +208,6 @@ p{
     color: $light-grayish-blue;
     font-size: 1.3rem;
 }
-// .form-control2 {
-//     width: 15%;
-
-// }
-
 .input-2 {
     height: 4rem;
     float: left;
@@ -243,25 +220,19 @@ p{
     display: grid;
     justify-items: center;
     padding: 9rem;
-
 }
 @media (min-width: 740px) {
     .footer2 {
       grid-template-columns: repeat(4, 25%);
       gap:  2rem;
-
   }
 }
 .footer p {
     font-size: 15px;
-
 }
 .footer-logo {
-    // display: block;
-    // margin-left: 15rem;
     margin-bottom: -7rem;
     padding-top: 5rem;
-    // margin-right: auto;
     width: 16rem
 }
 .logo-section {
