@@ -9782,12 +9782,6 @@ textarea.form-control-lg {
   }
 }
 /* =========Colors=========== */
-/* hsl(243, 87%, 12%) */
-/* hsl(238, 22%, 44%) */
-/* hsl(224, 93%, 58%) */
-/* hsl(170, 45%, 43%) */
-/* hsl(240, 75%, 98%) */
-/* hsl(0, 0%, 75%) */
 /* =========Fonts=========== */
 /* =========Custom Bootstrap=========== */
 h2, .h2 {
@@ -9802,6 +9796,20 @@ h2, .h2 {
   font-size: 19px;
 }
 
+.navbar-link:hover {
+  font-weight: 700;
+}
+
+@media (max-width: 740px) {
+  .logo {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .links {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
 .body-img {
   width: 45rem;
 }
@@ -9828,13 +9836,17 @@ p {
   padding: 1rem;
 }
 
+.container-1 {
+  margin-top: 10rem;
+}
+
 .hero1 {
   display: grid;
-  padding-top: 8rem;
+  margin-top: 1rem;
   grid-template-rows: repeat(2, 1fr); /* Define dos filas */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 740px) {
   .hero-text {
     order: 2;
   }
@@ -9842,9 +9854,23 @@ p {
     order: 1;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 740px) {
   .hero1 {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+.hero2 {
+  display: grid;
+  margin-top: 8rem;
+  grid-template-rows: repeat(1, 1fr); /* Define dos filas */
+}
+
+@media (max-width: 740px) {
+  .hero-text2 {
+    order: 2;
+  }
+  .image-hero2 {
+    order: 1;
   }
 }
 .body-img {
@@ -9880,6 +9906,12 @@ p {
   width: 41rem;
 }
 
+@media (max-width: 740px) {
+  .quote {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
 .card__quote {
   display: flex;
   width: 30rem;
@@ -9934,7 +9966,7 @@ p {
   width: 15rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 740px) {
   .contact {
     flex-direction: column;
   }
@@ -9978,7 +10010,7 @@ p {
   padding: 9rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 740px) {
   .footer2 {
     grid-template-columns: repeat(4, 25%);
     gap: 2rem;
@@ -9989,8 +10021,22 @@ p {
 }
 
 .footer-logo {
-  margin-left: 15rem;
   margin-bottom: -7rem;
   padding-top: 5rem;
-  width: 14rem;
+  width: 16rem;
+}
+
+.logo-section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 740px) {
+  .logo-section {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .footer-enlace, .footer-enlace2 {
+    margin-top: 1rem;
+  }
 }/*# sourceMappingURL=custom.css.map */
